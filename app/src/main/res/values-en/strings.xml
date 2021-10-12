@@ -24,4 +24,5 @@
     <string name="numerofinal">The number to guess was:</string>
     <string name="ganaste">Winner</string>
     <string name="perdiste">Losser</string>
+    <string name="simbol">" "</string>
 </resources>

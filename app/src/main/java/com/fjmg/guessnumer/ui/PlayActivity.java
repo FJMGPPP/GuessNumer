@@ -5,12 +5,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-
 import com.fjmg.guessnumer.R;
 import com.fjmg.guessnumer.data.Partida;
 import com.fjmg.guessnumer.databinding.ActivityPlayBinding;
 
+/**
+ * Actividad encargada del juego donde se lleva acabo toda la partida.
+ * relacionada con:
+ * @see ConfigActivity
+ * Llama a:
+ * @see EndPlayActivity
+ */
 public class PlayActivity extends AppCompatActivity
 {
     ActivityPlayBinding binding;
@@ -38,7 +43,7 @@ public class PlayActivity extends AppCompatActivity
     int ComprobarNumero(ActivityPlayBinding binding)
     {
         String posiblenumero = binding.numeroAdivinaEditText.getText().toString();
-        int numero = -1;
+        int numero;
         try{
             numero = Integer.parseInt(posiblenumero);
             if (numero <= -1 )

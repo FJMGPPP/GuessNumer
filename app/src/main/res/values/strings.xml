@@ -23,4 +23,5 @@
     <string name="numerofinal">El numero para adivinar era:</string>
     <string name="ganaste">Ganaste</string>
     <string name="perdiste">Perdiste</string>
+    <string name="simbol">" "</string>
 </resources>

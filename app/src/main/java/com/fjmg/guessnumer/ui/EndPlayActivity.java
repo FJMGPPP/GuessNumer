@@ -8,14 +8,19 @@ import android.support.v7.app.AppCompatActivity;
 import com.fjmg.guessnumer.R;
 import com.fjmg.guessnumer.data.Partida;
 import com.fjmg.guessnumer.databinding.ActivityEndplayBinding;
-import com.fjmg.guessnumer.databinding.ActivityPlayBinding;
 
+/**
+ * Actividad donde sucede la final del juego mostrando los resultados de este.
+ * relacionada con:
+ * @see PlayActivity
+ */
 public class EndPlayActivity  extends AppCompatActivity
 {
     ActivityEndplayBinding binding;
     Partida game;
     boolean gano;
     int nIntentos;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +39,10 @@ public class EndPlayActivity  extends AppCompatActivity
         binding.ganador.append(" "+game.getUsuario());
         binding.numeroMagicoFinal.append(" " + game.getNumeroGenerado());
     }
+
+    /**
+     * Recupera los datos y los inicializa dentro de la clase
+     */
     void optenerResultado()
     {
         Intent paquete = getIntent();
