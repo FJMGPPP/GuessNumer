@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GuessNumer</string>
+    <string name="configuracion">Configuración</string>
+    <string name="nameJugador">Nombre del Jugador:</string>
+    <string name="numeroIntentos">Numero de intentos</string>
+    <string name="enviar">¡A jugar!</string>
+    <string name="hideJugador">Nombre del jugador</string>
+    <string name="hideNumeroIntentos">Numero de intentos</string>
+    <string name="tituloJugar">Partida</string>
+    <string name="adivina">adivina</string>
+    <string name="introduceNumeroAdivina">adivina el numero</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="errorNombreJugador">Error: Nombre jugador invalido</string>
+    <string name="errorNombreJugadorText">Debes poner un texto al jugador</string>
+    <string name="errorNumeroIntentosInvalido">Error: Cantidad de intentos invalidos</string>
+    <string name="errorNumeroIntentosInvalidoText">Debes poner un numero positivo mayor 0</string>
+    <string name="errorNumeroMagicoError">Error: El numero debe ser positivo</string>
+    <string name="errorNumeroMagicoErrorText">El numero que has introducido es invalido</string>
+    <string name="simbolPositive" > mayor </string>
+    <string name="simbolNegative" > menor </string>
+    <string name="TituloFinal">End Game</string>
+    <string name="finalNintentos">Total de intentos gastados:</string>
+    <string name="numerofinal">El numero para adivinar era:</string>
+    <string name="ganaste">Ganaste</string>
+    <string name="perdiste">Perdiste</string>
+</resources>

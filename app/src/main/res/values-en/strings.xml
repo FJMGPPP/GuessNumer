@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumer</string>
+    <string name="configuracion">Configuration</string>
+    <string name="nameJugador">Player name</string>
+    <string name="numeroIntentos">number of attemps</string>
+    <string name="enviar">¡Play!</string>
+    <string name="hideJugador">Player name</string>
+    <string name="hideNumeroIntentos">number of attemps</string>
+    <string name="tituloJugar">Game</string>
+    <string name="adivina">guess</string>
+    <string name="introduceNumeroAdivina">guess the number</string>
+    <string name="comprobar">Check</string>
+    <string name="errorNombreJugador">Error: invalid player name</string>
+    <string name="errorNombreJugadorText">you must put text in the player\'s name</string>
+    <string name="errorNumeroIntentosInvalido">Error: invalid cuantity attemps</string>
+    <string name="errorNumeroIntentosInvalidoText">you must put positive number higher 0</string>
+    <string name="errorNumeroMagicoError">Error: you number must positive</string>
+    <string name="errorNumeroMagicoErrorText">the number is invalid</string>
+    <string name="simbolPositive">higher</string>
+    <string name="simbolNegative">less</string>
+    <string name="TituloFinal">End Game</string>
+    <string name="finalNintentos">Total attempts spent:</string>
+    <string name="numerofinal">The number to guess was:</string>
+    <string name="ganaste">Winner</string>
+    <string name="perdiste">Losser</string>
+</resources>
